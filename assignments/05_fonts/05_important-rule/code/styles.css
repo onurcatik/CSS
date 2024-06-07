@@ -1,0 +1,52 @@
+/* Genel stil kuralları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  background-color: white;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #4caf50;
+}
+
+/* Standart stil kuralları */
+.highlight {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* !important kuralı ile stil kuralları */
+.highlight {
+  background-color: orange !important;
+}
+
+.highlight {
+  color: red !important;
+}

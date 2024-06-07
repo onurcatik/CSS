@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 0.5em;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+/* text-decoration-line örnekleri */
+.underline {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+/* text-decoration-color örneği */
+.underline-red {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+/* text-decoration-style örnekleri */
+.underline-wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.underline-dotted {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.underline-dashed {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+/* text-decoration-thickness örneği */
+.underline-thick {
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+}
+
+/* text-decoration birleşik örneği */
+.combined-decoration {
+  text-decoration: underline wavy red 2px;
+}
+
+footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

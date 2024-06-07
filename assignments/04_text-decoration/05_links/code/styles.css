@@ -1,0 +1,52 @@
+/* Genel Bağlantı Stilleri */
+a.example-link {
+  color: blue; /* Normal, ziyaret edilmemiş bağlantı */
+  text-decoration: none;
+}
+
+a.example-link.visited {
+  color: purple; /* Ziyaret edilmiş bağlantı */
+}
+
+a.example-link:hover {
+  color: red; /* Fareyle üzerine gelinmiş bağlantı */
+}
+
+a.example-link:active {
+  color: yellow; /* Tıklanmış bağlantı */
+}
+
+/* Metin Dekorasyonu */
+a.no-decoration {
+  text-decoration: none;
+  color: green;
+}
+
+a.underline {
+  text-decoration: underline;
+  color: green;
+}
+
+/* Arka Plan Rengi */
+a.background-color {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Bağlantı Düğmeleri */
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+  background-color: darkblue;
+}

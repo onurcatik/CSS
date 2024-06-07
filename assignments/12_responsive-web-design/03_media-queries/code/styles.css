@@ -1,0 +1,57 @@
+/* Temel Stil Kuralları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+section {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+/* Görsellerin Duyarlı Hale Getirilmesi */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Medya Sorguları */
+@media only screen and (max-width: 768px) {
+    header, section, footer {
+        padding: 10px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    section p {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}

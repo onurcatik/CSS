@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.default {
+  cursor: default;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text {
+  cursor: text;
+}
+
+.move {
+  cursor: move;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.custom {
+  cursor: url("custom-cursor.png"), auto;
+}

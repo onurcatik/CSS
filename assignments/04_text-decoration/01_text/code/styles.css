@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1,
+footer p {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.text-color {
+  color: blue;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.justify-last {
+  text-align: justify;
+  text-align-last: right;
+}
+
+.vertical-align-example {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+.word-spacing {
+  word-spacing: 4px;
+}
+
+.line-height {
+  line-height: 1.8;
+}

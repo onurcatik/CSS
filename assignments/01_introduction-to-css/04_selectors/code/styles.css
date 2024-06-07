@@ -1,0 +1,44 @@
+/* Element Seçici */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* ID Seçici */
+#header {
+  background-color: grey;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Class Seçici */
+.intro {
+  font-size: 24px;
+  font-weight: bold;
+  color: navy;
+}
+
+/* Class Seçici */
+.highlight {
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid orange;
+}
+
+/* Grup Seçici */
+h1,
+h2,
+p {
+  margin-bottom: 20px;
+}
+
+/* Evrensel Seçici */
+* {
+  box-sizing: border-box;
+}
+
+/* Bağımlı Seçici */
+section p {
+  color: red;
+}

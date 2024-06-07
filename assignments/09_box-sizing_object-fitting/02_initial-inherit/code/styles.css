@@ -1,0 +1,45 @@
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header stili */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Section stili */
+section {
+  padding: 2em;
+  background-color: #f4f4f4;
+}
+
+/* Footer stili */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Ebeveyn div stili */
+.parent {
+  color: green; /* Ebeveynin rengi */
+  border: 2px solid green;
+  padding: 1em;
+}
+
+/* inherit anahtar kelimesi kullanımı */
+.child-inherit {
+  color: inherit; /* Ebeveynin rengini miras alır */
+}
+
+/* initial anahtar kelimesi kullanımı */
+.child-initial {
+  color: initial; /* Varsayılan değere sıfırlanır */
+}

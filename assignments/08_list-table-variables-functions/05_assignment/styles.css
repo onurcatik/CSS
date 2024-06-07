@@ -1,0 +1,62 @@
+:root {
+    /* CSS Variables */
+    --main-color: black;
+    --secondary-color: gray;
+    --font-size-large: 18px;
+    --font-size-small: 14px;
+    --padding-standard: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    padding: var(--padding-standard);
+    text-align: center;
+}
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-list li {
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: var(--font-size-large);
+    padding: var(--padding-standard);
+    margin-bottom: 5px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.custom-table, .custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+}
+
+.custom-table th {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    padding: var(--padding-standard);
+}
+
+.custom-table td {
+    text-align: center;
+    padding: var(--padding-standard);
+    background-color: white;
+}
+
+.results-section {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: var(--padding-standard);
+    font-size: var(--font-size-small);
+}

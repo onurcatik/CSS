@@ -1,0 +1,43 @@
+/* Genel Stil Ayarları */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Metin Dönüştürme Stilleri */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.none {
+  text-transform: none;
+}

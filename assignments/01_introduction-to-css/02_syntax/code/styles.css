@@ -1,0 +1,72 @@
+/* Evrensel Seçici */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tür Seçici */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* ID Seçici */
+#home,
+#about,
+#contact {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Sınıf Seçici */
+.intro {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Tür ve Sınıf Seçici */
+p.intro {
+  margin-top: 10px;
+}
+
+/* Etiket Seçiciler */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Altbilgi Seçici */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}

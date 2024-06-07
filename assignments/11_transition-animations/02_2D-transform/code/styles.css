@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section div {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #eaeaea;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Transformations */
+.translate {
+    transform: translate(50px, 100px);
+}
+
+.rotate {
+    transform: rotate(15deg);
+    position: relative;
+    top: -125px;
+}
+
+.scale {
+    transform: scale(1.5, 1.5);
+}
+
+.skewX {
+    transform: skewX(30deg);
+}
+
+.skewY {
+    transform: skewY(30deg);
+}
+
+.matrix {
+    transform: matrix(1, 0.5, -0.5, 1, 30, 30);
+}

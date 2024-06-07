@@ -1,0 +1,56 @@
+/* Genel stil kuralları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Başlık stil kuralları */
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Ana içerik stil kuralları */
+main {
+  padding: 2em;
+}
+
+main p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Buton stil kuralları */
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Alt bilgi stil kuralları */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

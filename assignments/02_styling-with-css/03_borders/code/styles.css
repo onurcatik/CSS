@@ -1,0 +1,58 @@
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Sınır stili örneği */
+.border-style-example {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Sınır rengi örneği */
+.border-color-example {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Sınır genişliği örneği */
+.border-width-example {
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Köşe yuvarlatma örneği */
+.border-radius-example {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Karmaşık sınır örneği */
+.complex-border-example {
+  border-top-style: solid;
+  border-right-style: dashed;
+  border-bottom-style: dotted;
+  border-left-style: double;
+  border-width: 4px;
+  border-top-color: blue;
+  border-right-color: green;
+  border-bottom-color: red;
+  border-left-color: yellow;
+  border-radius: 15px 30px 45px 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+}

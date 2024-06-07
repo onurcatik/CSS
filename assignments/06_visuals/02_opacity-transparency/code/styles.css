@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.example {
+    margin: 20px 0;
+}
+
+.opaque {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.6;
+}
+
+.semi-transparent {
+    background-color: #28A745;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.transparent {
+    background-color: #DC3545;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.3;
+}
+
+.rgba-bg {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.hsla-bg {
+    background-color: hsla(120, 100%, 50%, 0.3);
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}

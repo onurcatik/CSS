@@ -1,0 +1,56 @@
+/* Genel Stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Başlık Stili */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0; /* Üst ve alt için 20px, sağ ve sol için 0 */
+  text-align: center;
+}
+
+/* İçerik Alanı Stili */
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+/* Makale Stili */
+.article {
+  flex: 3;
+  margin-right: 20px;
+  padding: 20px;
+  background: #e3e3e3;
+  border: 1px solid #ccc;
+}
+
+/* Yan Panel Stili */
+.sidebar {
+  flex: 1;
+  padding: 20px 10px 20px 30px; /* Üst ve alt için 20px, sağ için 10px, sol için 30px */
+  background: #d1d1d1;
+  border: 1px solid #ccc;
+}
+
+/* Altbilgi Stili */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}

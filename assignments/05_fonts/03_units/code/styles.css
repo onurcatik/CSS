@@ -1,0 +1,59 @@
+/* Temel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Mutlak Uzunluk Birimleri */
+.absolute-units .absolute-example {
+    width: 5cm;
+    height: 2cm;
+    margin: 1cm;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+}
+
+/* Göreli Uzunluk Birimleri */
+.relative-units {
+    font-size: 16px;
+}
+
+.relative-units .relative-example {
+    width: 20em;
+    height: 10em;
+    margin: 2em;
+    padding: 1em;
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+}
+
+/* Viewport Uzunluk Birimleri */
+.viewport-units .viewport-example {
+    width: 50vw;
+    height: 30vh;
+    margin: 5vh;
+    padding: 2vw;
+    background-color: #FF5722;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.filter-examples {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.filter-examples h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.example {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.example h2 {
+    margin-bottom: 10px;
+}
+
+.example img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Filter Effects */
+.blur-example {
+    filter: blur(5px);
+}
+
+.saturate-example {
+    filter: saturate(150%);
+}
+
+.grayscale-example {
+    filter: grayscale(100%);
+}
+
+.sepia-example {
+    filter: sepia(100%);
+}
+
+.brightness-example {
+    filter: brightness(50%);
+}
+
+.contrast-example {
+    filter: contrast(200%);
+}
+
+.invert-example {
+    filter: invert(100%);
+}

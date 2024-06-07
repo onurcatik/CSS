@@ -1,0 +1,64 @@
+/* Element Seçici */
+h1 {
+    text-align: center;
+    color: navy;
+}
+
+/* ID Seçici */
+#uniqueArticle {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Class Seçici */
+.exampleClass {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Pseudo Sınıf */
+a:hover {
+    color: green;
+}
+
+/* Pseudo Element */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Özellik Seçici */
+input[type="text"] {
+    background-color: yellow;
+}
+
+/* Evrensel Seçici */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Birleştirici Seçiciler */
+
+/* Descendant (Alt Eleman) Seçici */
+div p {
+    color: blue;
+}
+
+/* Child (Çocuk) Seçici */
+div > p {
+    background-color: #e3e3e3;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Adjacent Sibling (Bitişik Kardeş) Seçici */
+h2 + p {
+    margin-top: 0;
+    font-style: italic;
+}
+
+/* General Sibling (Genel Kardeş) Seçici */
+h2 ~ p {
+    color: red;
+}

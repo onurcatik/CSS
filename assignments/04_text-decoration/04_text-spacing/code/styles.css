@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.text-indent-example {
+  text-indent: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.letter-spacing-example {
+  letter-spacing: 2px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.line-height-example {
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.word-spacing-example {
+  word-spacing: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.white-space-example {
+  white-space: pre-wrap;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}

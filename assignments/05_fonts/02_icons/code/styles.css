@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.icon-container {
+  margin-top: 50px;
+}
+
+.icon-container i {
+  margin: 20px;
+  font-size: 50px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-container i:hover {
+  color: #ff6347; /* Hover sırasında ikon rengi */
+  transform: scale(1.2); /* Hover sırasında ikon büyütme */
+}

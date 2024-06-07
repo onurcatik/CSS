@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Ekleme Örneği</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      /* Dahili CSS */
+      section {
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Ekleme Yöntemleri</h1>
+    </header>
+
+    <section>
+      <h2>Harici CSS Kullanımı</h2>
+      <p>
+        Bu bölümde, harici bir stil sayfasının nasıl kullanıldığını görüyoruz.
+        <code>styles.css</code> dosyasına bakınız.
+      </p>
+    </section>
+
+    <section>
+      <h2>Dahili CSS Kullanımı</h2>
+      <p>
+        Bu bölümde, dahili CSS'nin nasıl uygulandığını görüyoruz. Bu stil
+        kuralları, <code>&lt;style&gt;</code> etiketi içinde tanımlanmıştır.
+      </p>
+    </section>
+
+    <section>
+      <h2>Satır İçi CSS Kullanımı</h2>
+      <p style="color: blue; font-weight: bold">
+        Bu paragraf, satır içi stil kullanılarak mavi ve kalın yapılmıştır.
+      </p>
+    </section>
+  </body>
+</html>

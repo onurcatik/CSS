@@ -1,0 +1,58 @@
+/* Genel stil tanımlamaları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flex container ve flex item genel stili */
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+/* Başlık (header) stil tanımlamaları */
+.header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header .nav li {
+    margin: 0 10px;
+}
+
+.header .nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Ana içerik (section) stil tanımlamaları */
+.main-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-content .flex-item {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Alt bilgi (footer) stil tanımlamaları */

@@ -1,0 +1,42 @@
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Başlık stili */
+header h1 {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Paragraf ilk harfi stili */
+p::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Before pseudo-elementi */
+.intro::before {
+  content: "Giriş: ";
+  font-weight: bold;
+  color: red;
+}
+
+/* After pseudo-elementi */
+.content::after {
+  content: " - Bu önemli bir noktadır.";
+  font-weight: bold;
+  color: blue;
+}
+
+/* Seçilen metin stili */
+::selection {
+  background: yellow;
+  color: black;
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: black;
+    float: none; /* List item is centered instead of floating left */
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .pagination a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}

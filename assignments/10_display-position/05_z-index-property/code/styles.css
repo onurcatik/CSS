@@ -1,0 +1,60 @@
+/* Genel Stiller */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+/* Kutu Stilleri */
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.box1 {
+  background-color: red;
+  top: 20px;
+  left: 20px;
+  z-index: 2; /* Üstte Görünecek */
+}
+
+.box2 {
+  background-color: blue;
+  top: 50px;
+  left: 50px;
+  z-index: 1; /* Ortada Görünecek */
+}
+
+.box3 {
+  background-color: green;
+  top: 80px;
+  left: 80px;
+  z-index: 3; /* Altta Görünecek */
+}

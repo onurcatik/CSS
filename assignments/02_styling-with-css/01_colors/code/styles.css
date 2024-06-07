@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.color-example {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Önceden Tanımlanmış Renk İsmi */
+.color-name {
+  background-color: blue; /* Önceden tanımlanmış renk ismi */
+}
+
+/* RGB Renk */
+.color-rgb {
+  background-color: rgb(255, 0, 0); /* RGB renk değeri */
+}
+
+/* HEX Renk */
+.color-hex {
+  background-color: #00ff00; /* HEX renk değeri */
+}
+
+/* HSL Renk */
+.color-hsl {
+  background-color: hsl(240, 100%, 50%); /* HSL renk değeri */
+}
+
+/* RGBA Renk */
+.color-rgba {
+  background-color: rgba(255, 165, 0, 0.5); /* RGBA renk değeri */
+}

@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+section {
+  padding: 2em;
+  background-color: #fff;
+  margin: 2em auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  outline: none;
+}
+
+input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  display: inline-block;
+  color: #333;
+}
+
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4caf50;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+input[type="radio"] + label:before {
+  border-radius: 50%;
+}
+
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:checked + label:before {
+  background-color: #4caf50;
+}
+
+input[type="checkbox"]:checked + label:after {
+  content: "\2713";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  font-size: 16px;
+  color: #fff;
+}
+
+input[type="radio"]:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+select {
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3csvg xmlns%3d%22http%3a//www.w3.org/2000/svg%22 width%3d%2229%22 height%3d%2216%22 viewBox%3d%220 0 29 16%22%3e%3cpath fill%3d%22%234CAF50%22 d%3d%22M14.5 16L0 0h29z%22/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+}
+
+footer {
+  text-align: center;
+  padding: 0em 0;
+  background-color: #4caf50;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

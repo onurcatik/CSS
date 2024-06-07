@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#main-title {
+    color: blue;
+}
+
+.title {
+    color: red; /* Bu stil ID'ye göre geçersiz kılınır */
+}
+
+section {
+    padding: 20px;
+}
+
+.subtitle {
+    color: green;
+}
+
+.text {
+    color: black;
+}
+
+#intro {
+    color: orange; /* Bu stil class'a göre geçersiz kılınır */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-text {
+    font-size: 12px;
+}

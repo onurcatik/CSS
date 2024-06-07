@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* Bireysel kenarlar için margin */
+#box1 {
+  margin-top: 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+/* Kısayol kullanımı */
+#box2 {
+  margin: 20px 10px;
+}
+
+/* Otomatik hizalama */
+#box3 {
+  margin: 0 auto;
+  width: 50%;
+}

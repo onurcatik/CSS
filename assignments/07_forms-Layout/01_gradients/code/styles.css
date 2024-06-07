@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #4a90e2, #9013fe);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.linear-gradient {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.radial-gradient {
+  background: radial-gradient(circle, #f6f1f0, #feb47b);
+}
+
+.conic-gradient {
+  background: conic-gradient(from 0deg, #ff7e5f, #ece7e4, #ff7e5f);
+}
+
+footer {
+  background: linear-gradient(to right, #4a90e2, #9013fe);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

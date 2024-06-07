@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+div {
+  border: 1px solid #000;
+  padding: 1em;
+  margin: 1em;
+  width: 200px;
+  height: 100px;
+}
+
+.overflow-visible {
+  overflow: visible;
+  background-color: #d3ffd3;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  background-color: #ffd3d3;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+  background-color: #d3d3ff;
+}
+
+.overflow-auto {
+  overflow: auto;
+  background-color: #fff3d3;
+}

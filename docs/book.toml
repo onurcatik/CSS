@@ -1,0 +1,8 @@
+[book]
+authors = ["Onur"]
+language = "tr"
+multilingual = false
+src = "src"
+title = "Cascading Style Sheets"
+[build]
+build-dir = "book"
